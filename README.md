@@ -3,7 +3,7 @@
 
 #This is one of the possible final output of the program
 
-0 0 0 0 0 1 0 0 
+0 0 0 0 0 1 0 0 </br>
 1 0 0 0 0 0 0 0 
 0 0 0 0 1 0 0 0 
 0 1 0 0 0 0 0 0 
