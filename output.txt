@@ -1,0 +1,235 @@
+run:
+1th PASS Queens Placed At : [0, 5, 1, 0]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+2th PASS Queens Placed At : [0, 5, 1, 0, 2, 2]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+3th PASS Queens Placed At : [0, 5, 1, 0, 2, 2, 3, 4]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+4th PASS Queens Placed At : [0, 5, 1, 0, 2, 2, 3, 4, 4, 6]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+5th PASS Queens Placed At : [0, 5, 1, 0, 2, 2, 3, 4, 4, 6, 5, 1]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+6th PASS Queens Placed At : [0, 5, 1, 0, 2, 2, 3, 4, 4, 6, 5, 1, 6, 3]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 1 0 
+0 1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 
+No place found for Queen to be placed !!
+Backtracking..!!
+POPPED Queen at pos :6 3
+New List of Queens [0, 5, 1, 0, 2, 2, 3, 4, 4, 6, 5, 1]
+Checking now at pos :6 4
+Checking now at pos :6 5
+Checking now at pos :6 6
+Checking now at pos :6 7
+POPPED Queen at pos :5 1
+New List of Queens [0, 5, 1, 0, 2, 2, 3, 4, 4, 6]
+Checking now at pos :5 2
+Checking now at pos :5 3
+Putting Queen at new pos ;5 3
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+No place found for Queen to be placed !!
+Backtracking..!!
+POPPED Queen at pos :5 3
+New List of Queens [0, 5, 1, 0, 2, 2, 3, 4, 4, 6]
+Checking now at pos :5 4
+Checking now at pos :5 5
+Checking now at pos :5 6
+Checking now at pos :5 7
+POPPED Queen at pos :4 6
+New List of Queens [0, 5, 1, 0, 2, 2, 3, 4]
+Checking now at pos :4 7
+Putting Queen at new pos ;4 7
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+5th ROW PASS Queens Placed At : [0, 5, 1, 0, 2, 2, 3, 4, 4, 7, 5, 1]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 
+0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+6th ROW PASS Queens Placed At : [0, 5, 1, 0, 2, 2, 3, 4, 4, 7, 5, 1, 6, 3]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 
+0 1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 
+No place found for Queen to be placed !!
+Backtracking..!!
+POPPED Queen at pos :6 3
+New List of Queens [0, 5, 1, 0, 2, 2, 3, 4, 4, 7, 5, 1]
+Checking now at pos :6 4
+Checking now at pos :6 5
+Checking now at pos :6 6
+Checking now at pos :6 7
+POPPED Queen at pos :5 1
+New List of Queens [0, 5, 1, 0, 2, 2, 3, 4, 4, 7]
+Checking now at pos :5 2
+Checking now at pos :5 3
+Putting Queen at new pos ;5 3
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+No place found for Queen to be placed !!
+Backtracking..!!
+POPPED Queen at pos :5 3
+New List of Queens [0, 5, 1, 0, 2, 2, 3, 4, 4, 7]
+Checking now at pos :5 4
+Checking now at pos :5 5
+Checking now at pos :5 6
+Checking now at pos :5 7
+POPPED Queen at pos :4 7
+New List of Queens [0, 5, 1, 0, 2, 2, 3, 4]
+POPPED Queen at pos :3 4
+New List of Queens [0, 5, 1, 0, 2, 2]
+Checking now at pos :3 5
+Checking now at pos :3 6
+Putting Queen at new pos ;3 6
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+No place found for Queen to be placed !!
+Backtracking..!!
+POPPED Queen at pos :3 6
+New List of Queens [0, 5, 1, 0, 2, 2]
+Checking now at pos :3 7
+Putting Queen at new pos ;3 7
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+No place found for Queen to be placed !!
+Backtracking..!!
+POPPED Queen at pos :3 7
+New List of Queens [0, 5, 1, 0, 2, 2]
+POPPED Queen at pos :2 2
+New List of Queens [0, 5, 1, 0]
+Checking now at pos :2 3
+Checking now at pos :2 4
+Putting Queen at new pos ;2 4
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+3th ROW PASS Queens Placed At : [0, 5, 1, 0, 2, 4, 3, 1]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+4th ROW PASS Queens Placed At : [0, 5, 1, 0, 2, 4, 3, 1, 4, 7]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+5th ROW PASS Queens Placed At : [0, 5, 1, 0, 2, 4, 3, 1, 4, 7, 5, 2]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+6th ROW PASS Queens Placed At : [0, 5, 1, 0, 2, 4, 3, 1, 4, 7, 5, 2, 6, 6]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 
+7th ROW PASS Queens Placed At : [0, 5, 1, 0, 2, 4, 3, 1, 4, 7, 5, 2, 6, 6, 7, 3]
+0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 
+BUILD SUCCESSFUL (total time: 0 seconds)
