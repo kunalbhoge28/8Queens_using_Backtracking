@@ -3,6 +3,6 @@
 
 #This is one of the possible final output of the program
 
-![ScreenShot](https://github.com/kunalbhoge28/8Puzzle_Hill_Climbing/blob/master/1.png)<br/>
+![ScreenShot](https://github.com/kunalbhoge28/8Puzzle_Hill_Climbing/blob/master/op.png)<br/>
 
 #See output.txt for whole output with backtracking
