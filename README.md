@@ -3,13 +3,6 @@
 
 #This is one of the possible final output of the program
 
-0 0 0 0 0 1 0 0 </br>
-1 0 0 0 0 0 0 0  </br>
-0 0 0 0 1 0 0 0  </br>
-0 1 0 0 0 0 0 0  </br>
-0 0 0 0 0 0 0 1  </br>
-0 0 1 0 0 0 0 0  </br>
-0 0 0 0 0 0 1 0  </br>
-0 0 0 1 0 0 0 0  </br>
+![ScreenShot](https://github.com/kunalbhoge28/8Puzzle_Hill_Climbing/blob/master/1.png)<br/>
 
 #See output.txt for whole output with backtracking
